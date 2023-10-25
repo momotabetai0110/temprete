@@ -1,0 +1,110 @@
+.header{
+    height: 124px;
+    background-color: #cdc8b0;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    font-size: xx-large;
+    color: #4e4b42; /* テキストの色 */
+}
+
+.header li a {
+    display: inline-block; /* インラインブロック要素としてスタイルを適用 */
+    padding: 10px 20px; /* ボタンの内部余白を調整 */
+    background-color: #b4af9a; /* ボタンの背景色 */
+    color: #4e4b42; /* テキストの色 */
+    text-decoration: none; /* リンクの下線を削除 */
+    font-size: x-large;
+    border: 1px solid #b4af9a;/* ボタンのボーダー */
+    transition: background-color 0.3s ease; /* ホバーエフェクト用のトランジション */
+}
+.header li a:hover {
+    background-color: #4e4b42; /* ホバーエフェクトで背景色を変更 */
+    color: #dad4bb;
+}
+
+.visual{
+    display: flex;
+    color: #4e4b42; /* テキストの色 */
+
+    height: 645px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #dad4bb;
+    border: 1px solid #4e4b42;
+        justify-content: center;
+}
+.visual li a{
+    display: inline-block; /* インラインブロック要素としてスタイルを適用 */
+    padding: 10px 20px; /* ボタンの内部余白を調整 */
+    background-color: #b4af9a; /* ボタンの背景色 */
+    color: #4e4b42; /* テキストの色 */
+    text-decoration: none; /* リンクの下線を削除 */
+    font-size: x-large;
+    border: 1px solid #b4af9a;/* ボタンのボーダー */
+    transition: background-color 0.3s ease; /* ホバーエフェクト用のトランジション */
+}
+
+.visual li a:hover {
+    background-color: #4e4b42; /* ホバーエフェクトで背景色を変更 */
+    color: #dad4bb;
+}
+
+
+.view {
+    width: 350px;
+    height: 575px;
+    font-size: 100px;
+    display: flex;
+    align-items: left;
+    background-color: #dad4bb;
+    border: 1px solid #4e4b42;
+
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px; /* フォントサイズを調整 */
+    margin-bottom: 10px; /* 要素間の余白を調整 */
+    margin-left: 40px;
+    margin-top :10px ;
+    transition: background-color 0.3s ease;
+  }
+  .title:hover{
+    color: #cd664d;
+  }
+  .text{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px; /* フォントサイズを調整 */
+        margin-bottom: 10px; /* 要素間の余白を調整 */
+        margin-left: 40px;
+        margin-top :10px ;
+        margin: 40px;
+      }
+.content{
+    height: 575px;
+    width: 1174px;
+    background-color: #dad4bb;
+    border: 1px solid #4e4b42;
+}
+.footer{
+    height: 70px;
+    background-color: #cdc8b0;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+
+}
+.footer li{
+    display: inline-block; /* インラインブロック要素としてスタイルを適用 */
+    padding: 10px 20px; /* ボタンの内部余白を調整 */
+    background-color: #4e4b42; /* ボタンの背景色 */
+    color: #b4af9a; /* テキストの色 */
+    text-decoration: none; /* リンクの下線を削除 */
+    font-size: x-large;
+}
